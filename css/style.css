@@ -14,8 +14,14 @@ a {
 
 .main {
     height: 100%;
+    background-image: url("sf-giantsbckg.jpg"); /* this doesn't show up */
 }
+
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.rightPane{
+    background-image: url("sf-giantsbckg.jpg"); /* this doesn't show up */
 }
