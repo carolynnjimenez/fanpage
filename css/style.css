@@ -16,7 +16,7 @@ a {
 }
 
 .main {
-    height: 100%;
+    height:100%;
     background-image: url("https://i.pinimg.com/originals/50/0d/06/500d06e27e881ad3e4aac7d4c97f4c7e.jpg");
     background-color: #AE8F6F;
 }
@@ -57,20 +57,24 @@ a {
 .footer{
     display: flex;
     justify-content: center;
+    position: fixed;
 }
 
 .aboutMain{
     display:flex;
 }
 
-leftPane{
-    width:50%;
+.leftPane{
+    width:80%;
 }
 
-rightPane{
-    width:50%;
+.rightPane{
+    width: 20%;
+    justify-content: flex-end;
+    height: 250px;
     background-image: url("https://sportslogohistory.com/wp-content/uploads/2017/12/san_francisco_giants_1958-1967.png");
     background-color: #AE8F6F;
+     background-repeat: repeat-y;
     }
 /*
 COLORS IN THEME
