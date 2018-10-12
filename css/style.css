@@ -7,18 +7,21 @@ body {
     background-color:#27251F;
     color: white;
     font-family: 'Graduate';
-
 }
 
 a {
     text-decoration: none;
     color: #FD5A1E;
 }
-
+.homepage{
+    display: flex;
+}
 .main {
     height:100%;
     background-image: url("https://i.pinimg.com/originals/50/0d/06/500d06e27e881ad3e4aac7d4c97f4c7e.jpg");
-    background-color: #AE8F6F;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #27251F;
 }
 
 .gallery {
@@ -58,6 +61,12 @@ a {
     display: flex;
     justify-content: center;
     position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FD5A1E;
+    color: #27251F;
+    text-align: center;
 }
 
 .aboutMain{
